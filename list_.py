@@ -86,7 +86,7 @@ def list_sort():
     print(ls)
     ls.sort(reverse=True)
     print(ls)
-    
+
 
 if __name__ == '__main__':
     ...
