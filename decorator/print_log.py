@@ -3,7 +3,7 @@
 
 示例中的accumulate函数@log_decorator装饰器。
 
-在主程序中，调用 accumulate 函数，将会打印以下内容
+在主程序中，调用 accumulate 函数，运行程序将会打印以下内容
     accumulate was called
     accumulate returned: 5050
 """
