@@ -65,7 +65,7 @@ def accumulate_v2():
 @print_run_time_v2
 def accumulate_v3():
     """
-    计算从0到n的所有整数的累加和。通过@print_run_time装饰器打印程序运行时间。返回计算结果。
+    计算从0到n的所有整数的累加和。通过@print_run_time_v2装饰器打印程序运行时间。返回计算结果。
     """
     n = 100
     res = 0
@@ -76,7 +76,7 @@ def accumulate_v3():
 @print_run_time_v3
 def accumulate_v4(n):
     """
-    计算从0到n的所有整数的累加和。通过@print_run_time装饰器打印程序运行时间。返回计算结果。n由参数指定
+    计算从0到n的所有整数的累加和。通过@print_run_time_v3装饰器打印程序运行时间。返回计算结果。n由参数指定
     """
     res = 0
     for i in range(n + 1):
@@ -84,8 +84,8 @@ def accumulate_v4(n):
     return res
 
 if __name__ == '__main__':
-    accumulate()
+    # accumulate()
     accumulate_v2()
-    print(f"累加结果={accumulate_v3()}")
-    print(f"累加结果={accumulate_v4(100)}")
+    # print(f"累加结果={accumulate_v3()}")
+    # print(f"累加结果={accumulate_v4(100)}")
 

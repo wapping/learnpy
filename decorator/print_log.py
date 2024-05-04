@@ -1,4 +1,12 @@
+"""
+定义了一个装饰器 log_decorator，用于在函数调用前后打印函数名以及函数返回值。
 
+示例中的accumulate函数@log_decorator装饰器。
+
+在主程序中，调用 accumulate 函数，将会打印以下内容
+    accumulate was called
+    accumulate returned: 5050
+"""
 def log_decorator(func):
     def wrapper(*args, **kwargs):
         print(f"{func.__name__} was called")
